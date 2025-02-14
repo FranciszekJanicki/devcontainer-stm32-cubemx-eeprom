@@ -1,4 +1,5 @@
 #include "main.h"
+#include "eeprom.hpp"
 #include "system_clock.h"
 #include "usart.h"
 

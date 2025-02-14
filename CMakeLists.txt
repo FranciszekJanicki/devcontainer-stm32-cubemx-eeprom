@@ -39,6 +39,11 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     "Core/Src/syscalls.c"
     "Core/Src/main.cpp"
     "Core/Src/usart.c"
+    "Core/Inc/utility.hpp"
+    "Core/Inc/i2c_device.hpp"
+    "Core/Inc/spi_device.hpp"
+    "Core/Src/i2c_device.cpp"
+    "Core/Src/spi_device.cpp"
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
